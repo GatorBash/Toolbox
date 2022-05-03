@@ -1,12 +1,15 @@
 #!/bin/bash
 
 #terminal install for rpi
+
 echo "6 - 3g/4g base hat"
 echo "username/pass n"
 echo " echo moduale has differnt req check link tellic=ttyUSB2"
 echo "autoconnect y"
 echo "apn for att broadband"
 echo "will be unique for each carrier"
+echo "Do you have all of that?"
+read yn
 
 
 #wget option
@@ -20,4 +23,5 @@ sudo ./ppp_install_standalone.sh
 #chmod +x ppp_install.sh
 #sudo ./ppp_install.sh
 
-#sudo pon
+sudo pon
+sudo reboot now
