@@ -1,6 +1,13 @@
 #!/bin/bash
 
 #terminal install for rpi
+echo "6 - 3g/4g base hat"
+echo "username/pass n"
+echo " echo moduale has differnt req check link tellic=ttyUSB2"
+echo "autoconnect y"
+echo "apn for att broadband"
+echo "will be unique for each carrier"
+
 
 #wget option
 wget https://raw.githubusercontent.com/sixfab/Sixfab_PPP_Installer/mater/ppp_instal_standalone.sh
@@ -12,3 +19,5 @@ sudo ./ppp_install_standalone.sh
 #cd Sixfab_PPP_Installer
 #chmod +x ppp_install.sh
 #sudo ./ppp_install.sh
+
+#sudo pon
