@@ -12,3 +12,6 @@ dd is pretty simple but seems complicated but if you break it down it is pretty 
 ### Imputing a file to write
 
 the syntax for identifying the imput file is using the flag `if`
+for example `dd if=<path to file>
+
+### Identifying the output file/drive
