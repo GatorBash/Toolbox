@@ -1,9 +1,13 @@
 #!/bin/bash
 
+#terminal install for rpi
+
+#wget option
 wget https://raw.githubusercontent.com/sixfab/Sixfab_PPP_Installer/mater/ppp_instal_standalone.sh
 sudo chmod +x ppp_install_standalone.sh
 sudo ./ppp_install_standalone.sh
 
+#git option
 #git clone https://github.com/sixfab/Sixfab_PPP_Installer.git
 #cd Sixfab_PPP_Installer
 #chmod +x ppp_install.sh
