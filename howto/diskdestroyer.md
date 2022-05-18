@@ -56,6 +56,6 @@ the syntax for that is very simple
 
 ## Real world example
 
-`dd if=/home/pi/Downloads/ubunto.iso of=/dev/sdx bs=1024 status=progress`
+`dd if=/home/pi/Downloads/ubunto.iso of=/dev/sdx bs=8M status=progress`
 
 ### Let me know if you have any questions
