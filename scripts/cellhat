@@ -10,7 +10,7 @@ echo "apn for att \"broadband\""
 echo "apn for t-mobile \"fast.t-mobile.com\""
 echo "will be unique for each carrier"
 echo "Do you have all of that?"
-read yn
+read -r yn
 
 
 #wget option
