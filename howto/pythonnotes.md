@@ -18,7 +18,7 @@
  - `os.rmdir()` = `rmdir`
   - `os.rmdir(path = '/home/user/test')` = `rmdir /home/user/test` "dir must be empty"
  - `os.makedirs()` = makes multiple dirs
-  - `os.makedirs('/home/user/test/dirs')` = 
+  - `os.makedirs('/home/user/test/dirs')` = works the same as mkdir just stupid to need different syntax
  - `os.remove()` = `rm <file>`
   - `os.remove(path = '/home/user/test/file')` = `rm /home/user/test/file`
  - `
