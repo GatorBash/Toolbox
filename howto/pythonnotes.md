@@ -5,8 +5,8 @@
  - `import platform`
 
 - platform command
- - platform.uname() = uname
- - platform.python_version() = outputs python version on computer
+ - `platform.uname()` = uname
+ - `platform.python_version()` = outputs python version on computer
 
 
 - os commands
