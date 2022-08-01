@@ -18,10 +18,10 @@
  - `os.rmdir()` = `rmdir`
   - `os.rmdir(path = '/home/user/test') = `rmdir /home/user/test` "dir must be empty"
  - `os.makedirs() = makes multiple dirs
-  - `os.makedirs('/home/user/test/dirs')` =
+  - `os.makedirs('/home/user/test/dirs')` = makes the test dir and dir dir
  - `os.remove()` = rm <file>
-  - `os.remove(path = '/home/user/test/file') = rm /home/user/test/file
+  - `os.remove(path = '/home/user/test/file')` = rm /home/user/test/file
  - `os.removedirs()` = removes multiple dirs
-  - `os.removedirs('/home/user/test/')
+  - `os.removedirs('/home/user/test/')`
  - `os.rename(old, new)` = operates the same as the mv command
  - `os.replace(old, new)` = does the same as mv but will overwrite other files with same name
