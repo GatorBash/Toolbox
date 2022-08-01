@@ -7,29 +7,29 @@ do
         echo "2) nmap"
         echo "3) Monitor/Managed"
         echo "4) exit"
-        read a
+        read -r a
         if [[ "$a" = [1-4] ]]
         then
 
                 case $a in
                         1)
                                 echo "What interface do you want to use?"
-                                read int
-                                read file -p "What do you want to name the file?"
+                                read -r int
+                                read -r file -p "What do you want to name the file?"
                                 sudo airodump-ng $int -w $file
                                 ;;
 
                         2)
                                 echo "Ok we can do a lot here so lets dig through this"
                                 echo "What ip/network do you want to scan?"
-                                read ip
+                                read -r ip
                                 echo "What scan do you want to do?"
                                 echo "1) Syn/stealth"
                                 echo "2) Version"
                                 echo "3) OS"
                                 echo "4) Hail Mary"
                                 echo "5) exit"
-                                read b
+                                read -r b
                                 case $b in
 
                                         1)
@@ -60,7 +60,7 @@ do
                                 echo "2) Set interface to Managed"
                                 echo "3) Exit"
                                 echo "Select 1-3"
-                                read a
+                                read -r a
                                 if [[ "$a" = [1-3] ]]
                                 then
 
@@ -68,7 +68,7 @@ do
 
                                         1)
                                                 echo "What interface are you configuring?"
-                                                read b
+                                                read -r b
                                                 sudo ip link set $b down
                                                 sudo iwconfig $b mode monitor
                                                 sudo ip link set $b up
@@ -77,7 +77,7 @@ do
 
                                         2)
                                                 echo "What interface are you configuring?"
-                                                read b
+                                                read -r b
                                                 sudo ip link set $b down
                                                 sudo iwconfig $b mode managed
                                                 sudo ip link set $b up
