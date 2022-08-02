@@ -29,7 +29,8 @@ if you need to specify a port use the `-p <port number>` option
 - this uses PKI so you will generate a public and private
 - `ssh -copy-id <username>@<ip/hostname>`
 - to log into a host using a key
-- `ssh <user>@<ip/hostname
+- `ssh <user>@<ip/hostname> -i <path to key>'
+- make sure you use the private key or it won't work
 
 # SCP notes
 
