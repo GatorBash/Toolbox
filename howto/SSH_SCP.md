@@ -22,6 +22,15 @@ if you need to specify a port use the `-p <port number>` option
 
 - `ssh <user>@<ip/hostname> "<command>"`
 
+### Key generation
+
+- `ssh-keygen`
+- makes ssh key so that you don't need to use passwords
+- this uses PKI so you will generate a public and private
+- `ssh -copy-id <username>@<ip/hostname>`
+- to log into a host using a key
+- `ssh <user>@<ip/hostname
+
 # SCP notes
 
 ### move files to remote host
