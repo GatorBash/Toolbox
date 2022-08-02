@@ -12,10 +12,22 @@ if you need to specify a port use the `-p <port number>` option
 - keep the terminal open
 - check your netstat
 - you should see the port that you forwarded open on `0.0.0.0:<port forwarded>`
-- you can now access that service on the local host 
+- you can now access that service on the local host
+
+#### Port forwarding options
+-N: only forward ports and do not execute commands
+-f: Put SSH to the bachfround after the connection is established(frees the terminal)
+
+### Running commands over ssh
+
+- `ssh <user>@<ip/hostname> "<command>"`
 
 # SCP notes
 
 ### move files to remote host
 
-`scp <file to move> <user>@<ip/hostname>:<path to save location>`
+- push
+- `scp <file to move> <user>@<ip/hostname>:<path to save location>`
+- pull
+- `scp <user>@<ip/hostname>:<file path> <where to put file locally>`
+
