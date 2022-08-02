@@ -16,6 +16,7 @@ if you need to specify a port use the `-p <port number>` option
 
 #### Port forwarding options
 -N: only forward ports and do not execute commands
+
 -f: Put SSH to the bachfround after the connection is established(frees the terminal)
 
 ### Running commands over ssh
