@@ -4,4 +4,4 @@
 
 You will find two dirercorys **scripts** and **howtos** 
 - scripts is for you guessed it scripts
-- howtos is my how tos for things i may forget how to do
+- howtos is my how to's for things i may forget how to do
