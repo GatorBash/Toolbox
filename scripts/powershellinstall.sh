@@ -1,5 +1,6 @@
 #!/bin/bash
 
+# This is meant for a fedora based distro
 # Register the Microsoft signature key
 sudo rpm --import https://packages.microsoft.com/keys/microsoft.asc
 
