@@ -26,7 +26,13 @@ in order to start Tmux all you will need to do is type `tmux` in the terminal</b
 tmux uses a series of hot keys to use it so once you have it open you will need to use hotkeys to manipulate</br>
 the session</br>
 
-### Hot key to know
+### Hotkeys to know
 
 tmux will use hotkeys by going into a command mode of sorts in order to put in hotkeys you will first need to</br>
-enter this mode by pressing the key combination of `Ctrl + b`
+enter this mode by pressing the key combination of `Ctrl` + `b`</br>
+in order to split the terminal into two side by terminals `Ctrl` + `b` `%`</br>
+in order to split the terminal into two stacked terminals `Ctrl` + `b` `"`</br>
+**this can be used multiple times to to make as many terminal as you want**</br>
+in order to move between these terminals use `Ctrl` + `b` then use the arrow keys to move where you want
+
+
