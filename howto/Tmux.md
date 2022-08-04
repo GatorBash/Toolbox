@@ -35,6 +35,21 @@ enter this mode by pressing the key combination of `Ctrl` + `b`</br>
 in order to split the terminal into two side by terminals `Ctrl` + `b` `%`</br>
 in order to split the terminal into two stacked terminals `Ctrl` + `b` `"`</br>
 **this can be used multiple times to to make as many terminal as you want**</br>
-in order to move between these terminals use `Ctrl` + `b` then use the arrow keys to move where you want
+in order to move between these terminals use `Ctrl` + `b` then use the arrow keys to move where you want</br>
 
+### Config file
 
+So you may say that you hate the hot keys for tmux</br>
+Well you are in luck we can change that by using a config file</br>
+this file will exist in your home directory but it won't be there at first don't worry we'll make it</br>
+just type `touch .tmux.conf` while in your home directory</br>
+`touch` is going to make an empty file we are going to put stuff in it to mess with tmux</br>
+for example if you don't like to press `Ctrl` + `b` to mess interact with tmux we can change that</br>
+to do that we are going to add some lines to that config file now go ahead and open it up with your favorite</br>
+text editor I prefer to use vim but you can use nano if you want to</br>
+```
+unbind C-b
+set -g prefix C-Space
+```
+this will change the default hotkey prefix of `Ctrl` + `b` to `Ctrl` + `Spacebar` which to me is easier to hit</br>
+over the default.
