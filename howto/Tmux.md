@@ -19,6 +19,8 @@ Tmux can be installed with a simple one line command</br>
 This command is used with a debian based distro but all you would need to do is swap out the package manager</br>
 for what ever your current distro is.</br>
 for example swap out `apt` for `dnf` or `pacman`</br>
+if you want to install it on your mac you will need to install `brew` on your machine the command to use brew</br>
+to install tmux will be `brew install tmux` nothing complicated</br>
 
 ## Using Tmux
 
