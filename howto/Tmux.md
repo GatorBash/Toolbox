@@ -1,4 +1,4 @@
-# Tmux howto
+# Tmux how to
 
 ## Why Tmux
 
