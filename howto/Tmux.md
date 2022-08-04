@@ -7,7 +7,10 @@
 Tmux is a terminal multiplexor.</br>
 What is a terminal multiplexor?</br>
 It allows you to take one terminal and split it multiple times without making multiple windows</br>
-
+The reason you want to use tmux is that it works in the terminal that you are already using</br>
+Why does this matter, well that means that if you are working in a remote session you can open it up within</br> 
+that session with out having to open another window</br>
+One nice thing that tmux does is it creates a session that you can reattach to if you get disconnected.</br>
 
 ## Install
 
@@ -18,3 +21,12 @@ for what ever your current distro is.</br>
 for example swap out `apt` for `dnf` or `pacman`</br>
 
 ## Using Tmux
+
+in order to start Tmux all you will need to do is type `tmux` in the terminal</br>
+tmux uses a series of hot keys to use it so once you have it open you will need to use hotkeys to manipulate</br>
+the session</br>
+
+### Hot key to know
+
+tmux will use hotkeys by going into a command mode of sorts in order to put in hotkeys you will first need to</br>
+enter this mode by pressing the key combination of `Ctrl + b`
