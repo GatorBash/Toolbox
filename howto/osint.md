@@ -11,9 +11,9 @@ remove.bg</br>
 ## Reverse image search engine
 
 bing</br>
- - has an option to narrow down image search window
+ - has an option to narrow down image search window</br>
 Yandex</br>
- - russian based
+ - russian based</br>
 Tineye</br>
 
 ## browser plugins
