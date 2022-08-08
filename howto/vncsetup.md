@@ -1,9 +1,11 @@
 # Set up VNC server
 
-follow the process</br>
-`sudo apt update`</br>
-`sudo apt install xfce4 xfce4-goodies`</br>
-`sudo apt install tightvncserver`</br>
+## install software
+
+- `sudo apt update`</br>
+- `sudo apt install xfce4 xfce4-goodies`</br>
+- `sudo apt install tightvncserver`</br>
+
 to start a vnc server</br>
 `vncserver`</br>
 this will prompt you to create a password</br>
