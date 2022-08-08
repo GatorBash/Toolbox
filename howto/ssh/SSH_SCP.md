@@ -15,8 +15,8 @@ you should see the port that you forwarded open on `0.0.0.0:<port forwarded>`</b
 you can now access that service on the local host</br>
 
 #### Port forwarding options
--N: only forward ports and do not execute commands</br>
--f: Put SSH to the bachfround after the connection is established(frees the terminal)</br>
+`-N` only forward ports and do not execute commands</br>
+`-f` Put SSH to the bachfround after the connection is established(frees the terminal)</br>
 
 ### Running commands over ssh
 
