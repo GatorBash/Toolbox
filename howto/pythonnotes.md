@@ -10,7 +10,7 @@
 
 
 - os commands
- - os.getcwd() = pwd
+ - `os.getcwd()` = pwd
  - `os.listdir()` = `ls`
   - `os.listdir(/)` = `ls /`
  - `os.mkdir()` = `mkdir`
