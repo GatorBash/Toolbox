@@ -33,3 +33,15 @@ remove not needed packages automatically</br>
 
 install a package</br>
 `apt install <package>`</br>
+
+## `yum` syntax
+
+to update and upgrade system</br>
+`yum update`</br>
+
+to install package</br>
+`yum install <package>`</br>
+
+to remove package</br>
+`yum remove <package>`</br>
+
