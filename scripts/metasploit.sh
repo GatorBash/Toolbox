@@ -10,6 +10,8 @@ systemctl enable postgresql
 wait
 systemctl start postgresql
 wait
+msfdb init
+wait
 
 # Metasploit database initialization
 msfdb init
