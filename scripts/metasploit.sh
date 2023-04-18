@@ -3,6 +3,7 @@
 if [[ $UID != 0 ]]
 then 
   echo "Run it as root"
+  exit 1
 fi
 
 # starting up postgresql
