@@ -11,3 +11,4 @@ Jitsi</br>
 ## VPN
 
 wireguard</br>
+openvpn</br>
