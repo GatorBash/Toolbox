@@ -13,6 +13,9 @@ git clone --depth 1 https://github.com/doomemacs/doomemacs ~/.config/emacs
 emacs
 ```
 this will download and install doom emacs then launch doom emacs
+manage packages for doom emacs in the ~/.config/doom/init.el file</br>
+uncomment the ones that you want and then run `doom upgrade`</br>
+
 
 ## Emacs server
 
